@@ -177,7 +177,7 @@ body {
 }
 
 #caixa1 {
-    background-image: url('https://raw.githubusercontent.com/rllimaferreira/v2_pagina_cidade_de_santos/main/img/bras_cubas.jpg');
+    background-image: url('./img/bras_cubas.jpg');
     background-size: cover;
 }
 
