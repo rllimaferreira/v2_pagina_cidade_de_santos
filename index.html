@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/santos_sp_favicon.ico" type="image/x-icon">
+    <title>Conheça Santos!</title>
+</head>
+<body>
+    <header>
+        <!-- Início da construção do menu de navegação -->
+        <nav class="nav-bar">
+            <!-- Adição da logo -->
+            <div class="logo">
+                <div>
+                    <img src="img/santos_sp_logo.jpg" alt="Logo da Cidade de Santos, SP">
+                </div>
+                <h1 class="titulo_logo">Cidade de Santos</h1>
+            </div>
+            <!-- Adição do menu -->
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#ancora-curiosidades" class="nav-link">Curiosidades</a></li>
+                    <li class="nav-item"><a href="#ancora-video" class="nav-link">Vídeo</a></li>
+                </ul>
+            </div>
+            <!-- Adição de imagem para o menu sanduíche (versão mobile) -->
+            <div class="mobile-menu-icon">
+                <!-- Criação da função menuShow() para o JS -->
+                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <!-- Adição do menu mobile -->
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#ancora-curiosidades" class="nav-link">Curiosidades</a></li>
+                <li class="nav-item"><a href="#ancora-video" class="nav-link">Vídeo</a></li>
+            </ul>
+    </header>
+    <script src="js/script.js"></script> 
+    <!-- Adição do conteúdo principal -->
+    <main>
+        <section class="welcome" id="inicio"> 
+            <div>
+                <div class="h1_boasvindas">
+                    <h1>✋😃Bem-Vindo (a/e) à Cidade de Santos</h1>
+                </div>
+            </div>
+        </section>
+        <div id="ancora-curiosidades"></div>
+        <div id="curiosidades">
+            <h2>Curiosidades</h2>
+        </div>
+    
+        <section class="container">
+            <div class="content" id="caixa1">
+                <h3>Fundação em 1545</h3>
+                <p>
+                    Atribui-se a fundação de Santos a <strong>Brás Cubas</strong>, sertanista português que, em 1536, recebeu a mais vasta sesmaria do litoral da Capitania de São Vicente. O povoado, com nome simplificado de Santos foi <strong>elevado à categoria de vila em 1545</strong>.
+                </p>
+            </div>
+            <div class="content" id="caixa2">
+                <h3>Jardim da Orla</h3>
+                <p>
+                    Cidade mais populosa do litoral paulista, o principal cartão-postal do município são os 7 km de praia. O <strong>Livro dos Recordes</strong> situa os jardins da orla de Santos como formadores do <strong>maior jardim frontal de praia em extensão do mundo</strong>.
+                </p>
+            </div>
+            <div class="content" id="caixa3">
+                <h3>Economia da Cidade</h3>
+                <p>
+                    O Produto Interno Bruto (PIB) é o maior da Região Metropolitana da Baixada Santista, o 13º do estado de São Paulo e o 33º de todo o país, em 2016. <strong>O Complexo Portuário de Santos responde por mais de um quarto da economia</strong>.
+                </p>
+            </div>
+    </section>
+    <div id="ancora-video"></div>
+    <div>
+        <h2 id="video">Vídeo</h2>
+    </div>
+        <section>
+            <div class="video">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/TYW7c7GWZdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="rodape">
+            <h2>Cidade de Santos</h2>
+            <div class="redes">
+            <a href="https://www.linkedin.com/in/rllimaferreira/"><img src="img/linkedin_icon.jpg" alt="LinkedIn">
+                <h5>Linkedin</h5>
+            </a>
+            <a href="https://github.com/rllimaferreira"><img src="img/github_icon.jpg" alt="GitHub">
+                <h5>GitHub</h5>
+            </a>
+            </div>
+            <p>© Todos os Direitos Reservados (2022) | Desenvolvido por Rodrigo L. de Lima Ferreira | Certified Tech Developer (CTD) | Digital House (Brasil)</p>
+        </section>
+    </footer>
+</body>
+</html>
