@@ -177,17 +177,17 @@ body {
 }
 
 #caixa1 {
-    background-image: url('/img/bras_cubas.jpg');
+    background-image: url('img/bras_cubas.jpg');
     background-size: cover;
 }
 
 #caixa2 {
-    background-image: url('/img/jardim-orla-de-santos.jpg');
+    background-image: url('img/jardim-orla-de-santos.jpg');
     background-size: cover;
 }
 
 #caixa3 {
-    background-image: url('/img/porto_de_santos.jpg');
+    background-image: url('img/porto_de_santos.jpg');
     background-size: cover;
 }
 
